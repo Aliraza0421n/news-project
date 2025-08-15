@@ -1,0 +1,25 @@
+body{
+padding: 150px 0px;
+background: linear-gradient(to right, #00c6ff, #0072ff);
+
+}
+
+.main{
+    min-width: 150px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(207, 253, 255, 0.498);
+}
+
+.main input{
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(26, 101, 148);
+}

@@ -1,0 +1,72 @@
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+      width: 90%;
+    }
+
+    .blog-input{
+        height: 200px;
+        
+    }
+    .youtube-description {
+  width: 100%;              /* Full width */
+  height: 150px;            /* Height of the box */
+  padding: 12px;            /* Inner spacing */
+  font-size: 16px;          /* Readable font size */
+  border: 1px solid #ccc;   /* Light border */
+  border-radius: 4px;       /* Rounded corners */
+  resize: vertical;         /* Allow vertical resizing only */
+  box-sizing: border-box;   /* Includes padding/border in size */
+  font-family: Arial, sans-serif;
+}
+
+
+    p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      background-color: white;
+      color: #0072ff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #e0e0e0;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5em;
+      }
+      p {
+        font-size: 1em;
+      }
+    }
